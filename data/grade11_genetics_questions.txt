@@ -1,0 +1,19 @@
+# Hasesa — Grade 11 Biology, Unit 4 (Genetics) — benchmark questions (working draft)
+# Target ~60 items. Write ONE item per line as a JSON object (JSONL). Copy the template per item.
+#
+# TEMPLATE:
+# {"id":"u4-mcq-001","qtype":"mcq","origin":"textbook-review","topic":"","cognitive_level":"","question_en":"","question_am":"","options":{"A":"","B":"","C":"","D":""},"answer":"","source_ref":"","requires_image":false}
+#
+# CONTROLLED VOCAB (use exactly these values):
+#   qtype:           mcq | short
+#   origin:          textbook-review | authored | dna-lab
+#   topic:           dna-structure | replication | transcription-translation | cell-division | mendelian | non-mendelian | genetic-disorders | breeding | dna-lab
+#   cognitive_level: recall | mechanism | application
+#   requires_image:  true | false
+# NOTES: options are English-only (v1). short-answer 'answer' = English reference (Amharic later).
+#        'source_ref' = page number (e.g. "p.172"), NOT the passage text. 'answer' for mcq = the letter.
+#
+# --- write questions below this line ---
+
+{"id":"u4-mcq-001","qtype":"mcq","origin":"textbook-review","topic":"dna-structure","cognitive_level":"recall","question_en":"The primary function of DNA and RNA are _____________ and _________ respectively.","question_am":"የዲኤንኤ እና አርኤንኤ ዋናው ተግባር በቅደም ተከተል _____ እና _____ ነው","options":{"A":"Storing information, making proteins","B":"Making proteins, storing information","C":"Making nucleotides, storing energy","D":"Storing energy, making nucleotides"},"answer":"A","source_ref":"p.123; p.127","requires_image":false}
+{"id":"u4-short-001","qtype":"short","origin":"textbook-review","topic":"mendelian","cognitive_level":"recall","question_en":"What is the difference between law of segregation and law of independent assortment? Give example.","question_am":"የሎው ኦፍ ሴግሪጌሽን እና የሎው ኦፍ ኢንዲፔንደንት አሶርትመንት ልዩነት ምንድን ነው? በምሳሌ አስረዳ","options":null,"answer":"While the law of segregation suggests the two alleles for each gene are placed in different gametes, the law of independent assortment states that the inheritance of one gene doesn't affect the inheritance of any other gene. For example, in a monohybrid cross - the alleles for the trait lets say color will be placed separately in a different gamete enabling crossing between the gametes. In a dihybrid cross, two traits are passed to next generation independent of one another that's independent assortment","source_ref":"p.137; p.138","requires_image":false}

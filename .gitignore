@@ -1,0 +1,19 @@
+# --- Copyrighted source material — NEVER publish ---
+# The MoE Grade 11 Biology textbook and its extracted text are copyrighted.
+# The benchmark stores page references (source_ref), not textbook passages.
+data/grade11_biology.pdf
+data/grade11_genetics_raw.txt
+
+# --- Private / scratch — keep local, not for the public repo ---
+notes/
+experiments/run_model.py
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
